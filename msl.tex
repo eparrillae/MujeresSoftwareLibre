@@ -1,0 +1,711 @@
+\documentclass[titlepage]{article}
+
+% Paquetes importados en este trabajo %
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Titulo y encabezado de primera pagina %
+\title{\Huge \textbf{Mujeres y Software Libre}}
+\author{\textbf{Esther Parrilla Endrino}}
+\date{10 Enero 2006}
+
+% ========== START DOCUMENT ========== %
+\begin{document}
+
+\maketitle
+
+% abstract %
+\begin{abstract}
+
+Este trabajo pretende ser una primera (y muy sucinta) referencia para todos aquellos que, con ciertos conocimientos de Informática, deseen saber algo más acerca del papel que desempeña actualmente la mujer en el mundo del Software Libre. A lo largo del mismo se presentan numerosas referencias fundamentales para la comprensión del texto pero sin profundizar más allá de lo necesario.\\
+
+En primer lugar definimos qué se entiende por algo tan intangible como es el Software, para continuar comentando el origen del Software Libre y sus principales diferencias y ventajas frente al Software Propietario. Intentaremos aclarar muchos malentendidos e ideas equivocadas sobre este tema, algunas de ellas fruto de intereses comerciales, otras, del desconocimiento. El Software Libre es, actualmente, una filosofía de vida y de trabajo que se basa en algo tan humano como la colaboración, compartir conocimientos y disponer de las herramientas adecuadas sin la obligación de pagar por ellas. En el mundo de la Información, las Comunicaciones e Internet, el hombre debe liberarse. El Software Libre nos exime de la pesada carga de las marcas y los ``derechos'' mal utilizados. Descubrimos y proponemos las bases de esta filosofía y la lectura de sus autores más representativos.\\
+
+En una segunda parte del trabajo nos centramos en la participación de la mujer en la Ciencia y Tecnología, las causas y soluciones al escaso número de mujeres en estos campos. Este tema ha sido tratado en múltiples ocasiones a lo largo de los siglos, pero sigue sin existir una solución definitiva. Posiciones ``machistas'', tópicos manidos y estereotipos han retrasado el acceso de las mujeres a la Ciencia y a la Tecnología prácticamente hasta el siglo pasado. Ofrecemos una breve exposición de la relación entre la Tecnología y la Mujer, y, más en general, de los cambios sociales que la Tecnología ha provocado desde la Revolución Industrial, no siempre en beneficio del sexo femenino.\\
+
+Proseguimos centrándonos en la Mujer involucrada en el Software Libre. La paradoja que existe en que un mundo tan librepensador y moderno como éste no dé más oportunidades a las mujeres para unirse. Profundizaremos en las razones de esta ``intolerancia'' y en las soluciones propuestas por varias autoras.\\
+
+Terminamos ofreciendo algunas interesantes referencias sobre los principales grupos femeninos y mujeres involucradas en el Software Libre, que, con su ejemplo y su trabajo, están abriendo este campo a otras muchas, deseosas de participar y de colaborar en un proyecto nada utópico, sino, afortunadamente, real.\\
+
+Este artículo pretende ser asimismo una reflexión sobre el rol que en un futuro podemos desarrollar las mujeres en el Software Libre, mediante la colaboración activa y la creación de nuevos proyectos. Y una invitación a la mujer a investigar más sobre una filosofía que no sabe, o no debería saber, ni de nacionalidades, ni de sexos.\\
+
+El contenido de este artículo está bajo licencia \textbf{Creative Commons by-nc-sa}\footnote{http://creativecommons.org/licenses/by-nc-sa/2.5/es/}.
+
+\end{abstract}
+
+\lhead{{}}
+\rhead{\textsc{Mujeres y Software Libre}}
+
+% --- indice de contenidos --- %
+
+\tableofcontents
+
+\newpage
+
+% ------- ¿Qué es el Software? ------- %
+
+\section{¿Qué es el Software?}
+
+\subsection{Definición de Software}
+Un ordenador en si, es sólo un conglomerado de componentes electrónicos (lo que llamamos Hardware) y una serie de programas y utilidades que hacen que esos componentes funcionen de forma ordenada (lo que llamamos Software):
+
+% Lista sin numeros %
+\begin{itemize}
+\item Herramientas para la edición e impresión de textos
+\item Herramientas de cálculo
+\item Herramientas para diseño gráfico: Páginas web, retoque fotográfico
+\item Herramientas multimedia tales como edición de música y video, juegos
+\end{itemize}
+
+El \textbf{Software} da vida al computador, actuando como intermediario con el usuario. Es por lo tanto una parte fundamental en el manejo del computador.\\
+
+\subsection{Un poco de historia sobre el Software}
+En los \textbf{años 70}, cada ordenador tenía sus propios programas que no funcionaban en el resto de ordenadores. Grupos de estudiantes y hackers de universidades y centros de investigación colaboraban sin ánimo de lucro en el desarrollo de un software que pudiera ser conocido y accesible para todo el mundo, eran los comienzos del \textbf{Software Libre}. \\
+
+Aquellas comunidades no denominaban aún ``Software Libre'' al código que desarrollaban y compartían de forma altruista, que era la práctica común en aquellos días. Cuando alguien de otra universidad o empresa quería instalar y utilizar un programa, se le proporcionaba de buen grado. Si se descubría que alguien usaba un programa poco conocido o interesante, siempre se le podía preguntar por el código fuente \footnote{El código fuente de un programa describe su funcionamiento y es la herramienta esencial para poder modificar dicho programa y adaptarlo a nuestras necesidades.}, leerlo, modificarlo o aprovechar partes de él para crear un programa nuevo.\\
+
+Los \textbf{años 80} trajeron consigo el colapso de la comunidad y la situación cambió drásticamente. Los modernos ordenadores de la época contaban con su propio sistema operativo \footnote{El sistema operativo de un ordenador es un conjunto de programas encargados de gestionar su funcionamiento y es por tanto, la parte más importante de su software. Actualmente, los sistemas operativos más utilizados son Windows y MacOS (Software Propietario) y los derivados libres de Unix, tales como GNU/Linux y los BSD.} y ninguno utilizaba Software Libre, había que firmar un acuerdo de confidencialidad para poder utilizarlos. De esta forma se firmaron los primeros contratos con empresas que desarrollaban \textbf{Software Propietario o Cerrado}, quedando así prohibidas las comunidades cooperativas. Para utilizar este software se tenía que pagar, y no se permitía a nadie conocerlo ni modificarlo. Algunas de éstas empresas se hicieron muy muy ricas. \\
+
+\textbf{Richard Stallman} \footnote{Richard Matthew Stallman (Manhattan, Nueva York, 1953) comenzó trabajando como hacker del Laboratorio de Inteligencia Artificial del MIT. En 1986, Stallman publicó el Manifiesto GNU, en el cual declaraba sus intenciones y motivaciones para crear una alternativa libre al sistema operativo Unix, al que denominó GNU. Poco tiempo después se incorporó a la organización no lucrativa Free Software Foundation como coordinador. Inventó el concepto de Copyleft, el cual se utilizó en la Licencia Pública General GNU (conocida generalmente como la ''GPL'') en 1989. Las motivaciones políticas y morales de Richard Stallman le han convertido en una figura controvertida. Para más información véase http://www.stallman.org/.} y otros se rebelaron contra esta situación. Estudiando la manera de hacer algo por el bien común y así resucitar la extinta comunidad de Software Libre, crearon la \textbf{Free Software Foundation (FSF)} para la defensa y promoción del Software Libre, cuya meta más ambiciosa era el \textbf{Proyecto GNU}, dedicado a la creación de un sistema operativo completo y 100\% libre. \\
+
+\newpage
+
+En los \textbf{años 90} el proyecto GNU estaba casi completo, tan solo faltaba el cerebro del sistema operativo, lo que llamamos el \textbf{kernel}. El proyecto atrajo a muchos colaboradores que contribuyeron con sus ideas, lo cual fué positivo, pero también causó un retraso en la unificación de criterios para tener una versión final del sistema operativo GNU. \\
+
+Pero un hecho inesperado cambió por completo el curso de los acontecimientos. Por aquellas fechas \textbf{Linus Torvalds} \footnote{Linus Torvalds (Helsinki, Finlandia, 1969) es el creador del kernel del sistema operativo GNU/Linux, a menudo llamado simplemente Linux. Solo el 2\% de Linux fue creado por él en los 90, pero en su persona sigue descansando la paternidad de este sistema operativo. Torvalds posee la marca registrada ''Linux'' y supervisa el uso (o abuso) de la marca a través de la organización sin ánimo de lucro Linux International.} comenzó a programar en un ordenador 386 un kernel tipo Unix al que llamó \textbf{Linux} (Linus + Unix). Cuando tuvo la primera versión estable y operativa la publicó en Internet para que cualquiera pudiera bajarla y probarla. \\
+
+Finalmente, en 1991 la FSF optó por utilizar Linux, forjando así el nacimiento del sistema operativo libre \textbf{GNU/Linux} (una combinación del sistema GNU con Linux como kernel). \\
+
+Hoy en día el uso de sistemas GNU/Linux como Debian, Fedora, o derivados desarrollados en nuestro país tales como Linex, Guadalinex o Lliurex, está ampliamente extendido en el mundo de la Informática y son muchas las empresas, instituciones docentes y organismos oficiales que confían en estas soluciones de Software Libre\footnote{Para una lista más completa de las diferentes distribuciones o \textit{distros} que actualmente están en uso, ver http://distrowatch.com}. Podemos afirmar que el Software Libre ha dejado de ser una utopía para convertirse en una alternativa real, rentable y robusta a los sistemas propietarios que hasta hace poco dominaban el mercado.\\ 
+ 
+\newpage
+
+% ------- ¿Qué es Software Libre? ------- %
+
+\section{¿Qué entendemos por Software Libre?}
+
+\subsection{El Proyecto GNU y la Free Software Foundation}
+La Free Software Foundation\footnote{Véase http://www.fsf.org/fsf/fsf.es.html.} se creó en 1985. Sus objetivos podemos encontrarlos en su sitio web y se resumen en: ``La Fundación para el Software Libre (FSF) está dedicada a eliminar las restricciones sobre el copiado, redistribución, entendimiento, y modificación de programas de ordenador. Promocionamos el desarrollo y uso del Software Libre en todas las áreas de la computación, y muy particularmente, ayudamos a desarrollar el sistema operativo GNU. Muchas organizaciones distribuyen cualquier Software Libre que esté disponible. Por el contrario, la FSF se concentra en desarrollar nuevos programas libres, y en hacer de este software un sistema coherente, que pueda eliminar la necesidad de uso del Software Propietario''. \\
+
+La \textbf{FSF} es una organización sin ánimo de lucro que acepta donaciones, aunque la mayor parte de sus ingresos provienen de la venta de copias de los productos de Software Libre desarrollados por ellos mismos y otros servicios relacionados tales como la producción de manuales, la enseñanza y el soporte técnico. \\
+
+Los primeros proyectos desarrollados por la \textbf{FSF} fueron el editor libre \textbf{Emacs} y el compilador multiplataforma \textbf{GCC}. Pero su objetivo más ambicioso es el proyecto \textbf{GNU} \footnote{Véase http://www.gnu.org/.} cuya meta es la creación de un Sistema Operativo libre basado en Unix. \\
+
+Cuando Richard Stallman y sus colegas decidieron unirse a mediados de los 80 para resucitar el espíritu del Software Libre, consideraron como primera tarea la necesidad de crear un sistema operativo libre denominado \textbf{GNU}\footnote{El nombre de GNU fue elegido según una tradición de los hackers, como un acrónimo recursivo de ``GNU's not UNIX''.} mediante el cual poder formar una nueva comunidad cooperativa de usuarios. Para tal fin, se eligió como base el sistema operativo Unix por su portabilidad y extendido uso en aquella época.\\
+
+En 1990 el sistema GNU estaba casi terminado, se contaba con numerosos programas de aplicación libres y solo faltaba crear el componente central, el kernel. Dicho kernel fué denominado \textbf{GNU Hurd}, pero su consolidación se retrasó más de lo esperado, y mientras tanto, una primera versión del kernel de Linux se había publicado. Al ser compatible con Unix, robusto y también de código libre, la FSF decidió desechar el proyecto Hurd y tomar Linux como kernel del sistema operativo GNU, lo que dió lugar al sistema operativo libre \textbf{GNU/Linux} que hoy conocemos. \\ 
+
+\subsection{Definición de Software Libre}
+Según la FSF el término \textbf{Software Libre} se refiere a la libertad de los usuarios para ejecutar, copiar, distribuir, estudiar, cambiar y mejorar el software. Estas libertades pueden resumirse en los siguientes postulados \cite{book:Stallman}:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Libertad 0: Libertad de ejecutar el programa, sea cual sea el propósito.
+\item Libertad 1: Libertad para modificar el programa ajustándolo a nuestras necesidades. Para ello se debe disponer del código fuente del mismo. 
+\item Libertad 2: Libertad de redistribuir copias a quien queramos, ya sea de forma gratutita, ya sea a cambio del pago de un precio.
+\item Libertad 3: Libertad de distribuir versiones modificadas del programa, de tal forma que la comunidad pueda aprovechar las mejoras introducidas.
+\end{itemize}
+
+\subsection{Licencia Copyleft}
+A la vista de los anteriores postulados, alguien podría pensar maliciosamente en tomar programas libres, cambiarles el nombre y ponerles el Copyright como si fueran suyos, para venderlos posteriormente y hacer dinero con ello. Para evitar esta situación, debe articularse algún mecanismo que garantize que la filosofía de Software Libre promulgada por la FSF se mantiene durante toda la vida útil de un programa. \\
+
+Así, se dice que el Software Libre está protegido por la licencia \textbf{Copyleft} \cite{book:Stallman} que es una licencia en la cual, en vez de reflejar las obligaciones y restricciones que queremos para nuestros programas (como en las licencias Copyright), ponemos que obligamos a que ese programa se pueda copiar y distribuir libremente de acuerdo con los postulados de la FSF: 
+
+% Lista sin numeros %
+\begin{itemize}
+\item Copyright: Todos los derechos reservados.
+\item Copyleft: Todos los derechos revocados. 
+\end{itemize}
+
+La idea fundamental del Copyleft es que autoriza ejecutar un programa, copiarlo, modificarlo según nuestras necesidades y distribuir estas nuevas versiones, siempre que no se añada ninguna clase de restricción a priori. Por lo tanto para que el Copyleft sea efectivo las versiones modificadas deben ser libres también.\\
+
+La FSF revocó una forma específica de Copyleft para la mayor parte del software GNU conocida como la \textbf{GNU General Public License} o para abreviar \textbf{GNU GPL}.\\
+
+Otro punto importante es señalar que un buen Software Libre debería ir acompañado de una buena documentación también libre para el usuario, documentación que debe seguir los principios de la FSF recogidos en el Copyleft\footnote{La FSF mantiene un listado de libros bajo licencia Copyleft de otros editores en http://www.gnu.org/doc/other-free-books.html}. \\
+
+Debería ser un axioma que la literatura científica existe para divulgar el conocimiento, y que las revistas científicas existen para facilitar ese proceso. Por consiguiente las reglas de uso de la literatura científica deberían diseñarse para conseguir este objetivo. Las reglas que tenemos ahora, conocidas como Copyright, fueron establecidas en la Era de la Imprenta, un método intrínsecamente centralizado para la producción masiva de copias. En el contexto de la imprenta, los derechos sobre los artículos de publicaciones solo afectaban a los editores, obligándoles a obtener un permiso para publicar, y también a los posibles plagiadores. Esto ayudó a que las revistas activaran y divulgaran el conocimiento sin interferir en el trabajo de los científicos, ya sea como escritores o lectores de los artículos. \\
+
+El concepto de Copyright, por lo tanto, se adecuaba bien a las características de la Imprenta, pero hoy en día es diferente. La tecnología que se utiliza para las publicaciones científicas es Internet. ¿Qué reglas aseguran mejor la divulgación de los artículos científicos y del conocimiento en la Red?. Los artículos deberían distribuirse en formatos no propietarios, de acceso abierto para todos, y todos deberían tener el derecho de reproducir los artículos, editándolos íntegramente con su adecuada atribución, tal y como nos explica el Copyleft. \\
+
+\newpage
+
+\subsection{Ventajas del Software Libre frente al Software Propietario}
+Son muchas las ventajas que el Software Libre nos brinda, entre ellas:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Empleo de formatos abiertos. Los formatos cerrados o propietarios son una lacra para la sociedad, ya que al ser incompatibles entre sí nos hacen depender de determinados fabricantes. La utilización de Software Libre evita el endeudamiento y preserva nuestros datos para siempre. Un mayor número de personas podrán tener acceso a los programas si su uso es libre.
+\item Coste cero en cuanto al pago de licencias, lo que supone un gran ahorro para los pequeños consumidores. El Software Libre se puede copiar y distribuir de forma legal, evitando la piratería. 
+\item Es un software multiplataforma. Sin apenas esfuerzo podemos utilizarlo en Windows, GNU/Linux, Mac etc.
+\item Posibilidad de mejorar los programas por nuestra cuenta y adaptarlos a nuestras necesidades. Por ejemplo, es software multilingüe, al poderse modificar libremente, surgen proyectos de traducción que permiten disponer de varias versiones para cada idioma. 
+\item Posibilidad de aprender y reutilizar programas, con el consiguiente ahorro en tiempo y dinero.
+\end{itemize}
+
+Gran parte del éxito que ha tenido el Software Libre se debe a que utiliza un modelo de desarrollo diferente del tradicional, usado por el Software Propietario, tal y como nos explica E.S Raymond en \cite{book:Raymond}. En el Software Propietario se utiliza un modelo denominado ``de Catedral'', cuyas características son:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Los grupos de desarrollo son pequeños y restringidos. Un desarrollador cualquiera no puede entrar a formar parte de ellos.
+\item Estos grupos trabajan a espaldas de la comunidad y su código es cerrado. 
+\item Al ser el código cerrado, los programas tienen que desarrollarse desde cero, con la consiguiente pérdida de tiempo y dinero, y el aumento del precio del producto final. 
+\item Las nuevas versiones de sus productos se liberan de forma muy espaciada. En ellas, se incluyen nuevas funcionalidades y se resuelven los numerosos problemas que hubieran aparecido en la versión anterior, aumentando el riesgo de fallos colaterales. Esto fuerza a los usuarios a esperar una nueva versión para ver resueltos los problemas de la actual.
+\item Los posibles errores en los programas se esconden a los usuarios, que desconocen las limitaciones del sistema que adquieren.
+\end{itemize}
+
+Con este diseño tan monolítico, no se facilita el intercambio de ideas y de código entre desarrolladores con distintos puntos de vista, por lo que el número de errores tiende a ser mayor (hay menos personas que testean las versiones). Esto retrasa la entrega de nuevas versiones con el consiguiente enfado de los usuarios. El usuario desconoce los entresijos del producto que compra y se siente impotente para poder resolver los fallos. \\
+
+Por el contrario, el Software Libre utiliza un modelo denominado de ``de Bazar'', cuyas características son:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Los grupos de desarrollos son numerosos y abiertos, cualquiera con interes puede aportar sus ideas y experiencia al proyecto.
+\item Una de las carecterísticas más importantes del modelo de desarrollo del Software Libre es que, al estar disponible el código para todos, se fomenta la reutilización de programas ya testeados y ampliamente utilizados para la elaboración de otros nuevos, con lo que el tiempo de duración de los desarrollos se reduce y la fiabilidad aumenta.
+\item Estos grupos trabajan de forma transparente a toda la comunidad y su código es abierto; podemos descargarlo y probarlo, con lo que los propios desarrolladores hacen de beta-testers \footnote{El término ``beta-testers'' es un anglicismo que se refiere a un grupo heterogéneo de personas dedicadas a probar, bajo distintos entornos y condiciones, un software dado para comprobar su robustez.} del mismo, aumentando su fiabilidad. 
+\item Las nuevas versiones de sus productos se liberan frecuentemente. Así cada versión contiene solo unos pocos cambios respecto a la anterior, haciéndolas muy estables y seguras.
+\item Los errores pendientes de resolución en cada versión del software entregado se hacen públicos para que el usuario tenga conocimiento del estado exacto en el que se encuentra el programa que ha adquirido, su funcionalidad y también sus limitaciones.
+\end{itemize}
+
+Con este diseño dinámico, tanto los desarrolladores como los usuarios disponen del código, lo que les da la oportunidad de aportar sus ideas para mejorarlo, proporcionando diferentes visiones que enriquecen el software y lo hacen más eficaz.\\
+
+Con el estilo de programación ``Catedral'', los errores y problemas en el desarrollo de software son truculentos e insidiosos, con el modelo ``Bazar'' se asume que los errores son fenómenos relativamente evidentes que se resuelven de manera rápida, con el consiguiente beneficio para el usuario y, en general, para toda la comunidad. \\
+
+En resumen, en el mundo del Software Libre existe una amplia comunidad de desarrolladores más pendientes de los usuarios, que son tratados como colaboradores, no como meros instrumentos para hacer dinero a los que constantemente se engaña.\\
+
+\subsection{Mitos sobre el Software Libre}
+Son muchos los falsos mitos que han surgido en torno al mundo del Software Libre, la mayoría fomentados por determinados sectores del Software Propietario que ven amenazada su hegemonía.\\
+
+Existe la creencia de que el Software Libre es más difícil de utilizar, lo cual es totalmente falso. Todos los programas requieren de un período de aprendizaje cuando se desconoce su funcionamiento. El hecho de estar más familiarizados con determinadas aplicaciones propietarias no significa que su uso sea más sencillo, simplemete que está más extendido. Es tarea de todos dar a conocer las posibilidades del Software Libre y las ayudas que nos brinda en nuestro trabajo diario. \\
+
+Otra de las ideas erróneas es que el Software Libre es de peor calidad, al no contar con una gran empresa detrás que lo represente. Esta afirmación es totalmente falsa. Precisamente, grandes empresas como IBM llevan invirtiendo en Software Libre mucho tiempo, y la circunstancia de que los programas sean conocidos por todos hacen que sea mayor el número de gente que aporte ideas y soluciones a los posibles problemas, cosa que no ocurre con programas propietarios, cuyos entresijos conocen solo unos pocos. \\
+
+Pero debemos distinguir entre asistencia bajo la forma de un verdadero trabajo de programación y lo que es meramente llevar de la mano al usuario. En relación a la primera, no se puede depender del vendedor de software; si tu problema no es compartido por un número suficiente de clientes, el vendedor lo ignorará. Si tu negocio requiere poder confiar en la asistencia, la única manera es tener el código fuente y todas las herramientas necesarias. De este modo, puedes contratar a cualquier persona para corregir el problema y no estar a merced de ninguna empresa. \\
+
+\newpage
+
+Si es cierto que los usuarios prefieren gastar dinero y obtener un producto con servicio, estarán igualmente de acuerdo en adquirir el servicio habiendo obtenido el producto de forma gratuita. Por lo tanto, las empresas de servicios competirán en calidad y precio, y los usuarios no estarán atados a ninguna en particular. Aquellos que no necesiten esos servicios podrán usar el programa de forma gratutita.\\
+
+En relación con lo anterior, desde sectores propietarios se promulga que el Software Libre es más inseguro que el Propietario, y que no tiene garantías. Estas afirmaciones tampoco tienen fundamento: todos sabemos que el problema de los virus/gusanos/troyanos no es una amenaza real en plataformas como Linux, y sí es una fuente continua de problemas y gastos en otros sistemas cerrados. Respecto al tema de las garantías, el Software Propietario tampoco las contempla, puesto que cuando aceptamos la licencia de uso, aceptamos que no tiene garantía y que cualquier fallo no es responsabilidad del fabricante. \\
+
+Desde los sectores que promueven el uso de Software Propietario se intenta difundir la creencia de que toda empresa de software tiene el derecho incuestionable de poseerlo y, por ende, de detentar todo el poder sobre sus usuarios, como si se tratase de un derecho natural, lo cual es totalmente falso. El Copyright no es una ley natural, sino un monopolio artificial impuesto por el Estado que limita el derecho natural de los usuarios a copiar. Tal y como se describe en \cite{book:Lessing}, el control sobre el uso de nuestras propias ideas realmente constituye control sobre las vidas de otras personas que las utilizan, y normalmente se usa para dificultar más esas vidas.\\
+
+A menudo los usuarios se preguntan si es posible obetener un beneficio económico desarrollando Software Libre de la misma forma que se obtiene con el Software Propietario, al ser el código abierto para todos. Esta pregunta se deriva de una concepción errónea del término ``libre''. Hay que aclarar que el que el software sea libre no quiere decir que sea ``no comercial''. Cualquier programa libre estará a disposición para su uso, desarrollo y distribución comercial, estableciendose una sana competencia entre los distintos grupos de desarrolladores. En este sentido el Software Propietario es perjudicial, no porque sea una forma de competición, sino porque es una forma de \textit{combate} entre los desarrolladores, intentando obstaculizarse unos competidores a otros. En el Software Libre se ejerce una competición constructiva, no un combate: el fin es que el mejor gane a costa de buen hacer, no a costa de cualquier precio.\\
+
+La idea de que el sistema social en torno al Software Propietario (un sistema que impide compartir o modificar el software, sembrando la división entre el público y abandonando a sus usuarios a la indefensión más absoluta) es antisocial no parece descabellada a la vista de los hechos presentados. Por contra, el Software Libre es toda una filosofía de vida, donde prima el beneficio que la comunidad obtiene del trabajo desinteresado de todos los participantes. Los usuarios de ordenadores deberían ser libres para modificar los programas y ajustarlos a sus necesidades, libres para compartirlos, porque la cooperación con los demás constituye la base de la sociedad.
+
+\newpage
+
+% ------- ¿Mujeres y Tecnología? ------- %
+
+\section{Mujeres y Tecnología}
+
+\subsection{La Tecnología y los cambios en la Sociedad de los últimos siglos}
+
+La Tecnología se define como el conjunto de conocimientos y actitudes necesarias para resolver un problema concreto de aplicación práctica, mediante la invención, fabricación y aplicación de objetos, herramientas, materiales y procesos. Como actividad humana, la tecnología toma prestado de la Ciencia y de la Ingeniería. Implica estudio y avance continuo. La propia naturaleza del hombre le empuja a la mejora de su vida, la búsqueda de respuestas y la superación de obstáculos. Se puede decir que no existe tecnología si no hay transmisión y acumulación de conocimientos.\\ 
+
+Desde los primeros logros tecnológicos del hombre (el fuego, las herramientas de piedra y la rueda), la técnica ha crecido de forma exponencial. En los últimos doscientos años, se ha inventado y descubierto más que en el resto de la Historia. Podría decirse que la carrera es imparable, si bien algunos estudiosos piensan que el ritmo irá frenándose hasta estabilizarse a mediados-finales de este siglo.\\
+   
+El hombre siempre ha buscado la forma de superar los obstáculos con los que se ha encontrado a lo largo su historia. De los telares mecánicos con tarjetas perforadas de Jacquard a los ordenadores más potentes de hoy no han pasado más que un par de siglos, sin embargo, todo ello ha supuesto un cambio inmenso en la estructura social y en las pautas de diferenciación de los trabajos, las clases y los sexos.\\
+
+En el siglo XVIII comienza la era de las máquinas, con la Revolución Industrial. Lo artesanal se convierte en mecánico, y la mano de obra deja de ser especializada. Es más fácil y rápido trabajar con una máquina que a mano, casi cualquiera puede hacerlo, y a precios mucho más bajos... casi cualquiera significa que también las mujeres y los niños entrarán en el nuevo mercado laboral.\\
+
+Si bien es cierto que ya en Roma las mujeres podían tener sus propios negocios, y que en la Europa Medieval, esposas y viudas podían asociarse en los gremios (normalmente, los negocios eran ``endogámicos'', y las hijas de los toneleros se casaban con toneleros, para echar una mano en el trabajo), fue a raiz de la Revolución Industrial cuando las mujeres comenzaron a ser una verdadera fuerza trabajadora. Durante el siglo XIX, el número de mujeres obreras (normalmente de baja cualificación) aumentó. En épocas de guerra, sustituyeron a la mano de obra masculina. Pero fue a partir de las dos Grandes Guerras del siglo XX cuando las mujeres de otras clases sociales comenzaron a trabajar en sectores diferentes del fabril o los servicios. Y esto fue así porque, como veremos más adelante, la mujer fue abriéndose hueco en la educación básica, superior y científica, hasta entonces reservada a los hombres.\\
+
+En muchos casos, la automatización y fragmentación de tareas típicamente masculinas ha permitido el acceso de mujeres a puestos anteriormente ocupados por hombres. Sin embargo, la automatización de trabajos típicamente femeninos, como las tareas administrativas, no ha acabado con la ``segregación'', quizás porque entre las labores de una secretaria o una recepcionista hay un componente social que, tópicamente, se cree propio de las mujeres. Lo mismo se puede decir de las tareas domésticas.\\
+
+Tecnología no es sólo Industria: engloba también la informática, telecomunicaciones y medios audiovisuales, que suponen el mayor acceso e intercambio de información que se haya tenido jamás, así como cambios en la vida, entornos de trabajo y forma de relacionarse de los individuos (T. Nevado Bueno, \cite{book:DGM}). La integración en el mundo laboral ya no será el único mecanismo de integración social. Se supone que la adaptación a este nuevo escenario será más sencilla para la mujer, puesto que su participación en el ``antiguo orden'' en declive ha sido más reciente que la del varón.\\
+
+Si bien el trabajo femenino ha estado siempre un escalón más bajo que el masculino, quizás es hora de aprovechar este nuevo orden para obtener un papel más relevante, e incluso protagonista, en la creación y desarrollo de las nuevas tecnologías de la información.\\
+
+
+\subsection{Las mujeres y la tecnología. Una historia complicada}
+
+Durante siglos, las actividades de hombres y mujeres han estado separadas. Prejuicios, ideas absurdas o sutiles artimañas de dominación han mantenido a la mujer alejada de los estudios, la ciencia y la tecnología (y, consecuentemente, del poder) hasta hace menos de doscientos años.\\
+
+Incluso hoy en día, es habitual escuchar comentarios sobre profesiones ``femeninas'' y ``masculinas''. Quizás ya no nos llame la atención trabajar con varias compañeras ingenieras o tener catedráticas en ciertas asignaturas, pero seguiremos recibiendo con extrañeza la noticia de que un varón es ``amo de casa'' o solicita un permiso de maternidad para cuidar de su hijo. Es complicado deshacerse de los estereotipos, sobre todo si estos tienen varios miles de años de antigüedad.\\
+
+Ciertamente, algunas mujeres han destacado en la Historia de la Ciencia, pero es relevante observar cómo los ejemplos de mujeres científicas de Hipatia hasta Mme. Curie son escasos y, sobre todo, son una excepción a la regla.\\
+
+Desde la Antigüedad, en las culturas más relevantes, el cometido casi único de la mujer fue asegurar la descendencia. Las ideas judeo-cristianas, que son la base del pensamiento en el mundo occidental, consideraban a la mujer subordinada al hombre (Talmud, San Pablo...). En el Imperio Romano y después en la Edad Media, el matrimonio era, para el hombre, una manera mejorar socialmente y de perpetuar un nombre. La mujer era, así, una moneda de cambio, una mercancía de \textit{status}, una garante del linaje. Con este punto de vista, es fácil entender la poca disposición de los varones a educar a las mujeres.\\
+
+Ya en la Grecia Clásica, Aristóteles y otros autores afirmaban que las diferencias biológicas entre hombre y mujeres producían diferencias intelectuales insalvables. Sorprendentemente, este disparate ``determinista'' ha prosperado hasta hace bien poco, incluso Darwin proponía diferencias evolutivas entre los dos sexos (una selección sexual), que hacían a la mujer ``defectuosa'' , y ayudaban a mantener el \textit{status quo} dominante. Tópicos como que el caracter de las mujeres, más tierno y cariñoso, es adecuado a la vida privada, pero no a la esfera pública, y otros, mantuvieron a las mujeres alejadas durante años de las tareas científicas, de dirección o políticas. También es cierto que algunos autores defendieron la igualdad de los sexos en cuanto a lo intelectual, como F. Poulain de la Barre en el siglo XVII, Malebranche, Feijoo en el XVIII o M.P. Jacobi en el XIX.\\
+
+Es evidente que las razones de la separación mujer-ciencia son meramente socioculturales.\\
+
+A partir del siglo XVIII comenzaron a aparecer los primeros estudios serios sobre mujeres científicas, en enciclopedias alemanas y francesas. Las barreras que ``impedían'' a las mujeres su participación en la ciencia las estudió por primera vez J.A. Zahn en su obra \textit{Woman in Science: With an Introductory Chapter on Woman's Long Struggle for Things of Mind}. Sobre estos impedimentos hablaremos más abajo.\\
+
+La mayor parte de las mujeres que pudieron acceder a una cultura equiparable a la de los varones cultivados fueron religiosas, o hijas, hermanas y a veces también esposas de científicos o estudiosos más o menos importantes (al igual que en otros gremios, también existía cierta endogamia en este campo). Muchas veces quizás obtuvieron su formación para ser una ayuda para sus parientes masculinos. Y muchas veces también, su nombre quedó oscurecido por el nombre de estos.\\
+
+Algunas mujeres científicas remarcables tuvieron todo el apoyo de sus padres, también científicos, profesores, ingenieros, y, en muchas ocasiones, librepensadores, ajenos a convenciones religiosas o ``morales'' sobre el lugar de la mujer en la sociedad. Es el caso de Maria Agnesi (matemática y filósofa del siglo XVIII, hija de un profesor de matemáticas, defensora del derecho de las mujeres a la educación), Emmy Noether (hija de Max Noether, famoso matemático), Marie Curie (su padre fue profesor de matemáticas, y tanto ella como su hermana tuvieron una educación superior en París). Otras tuvieron que dedicarse en ``secreto'' a las ciencias, por la oposición de su familia: Sophie Germain (matemática del siglo XIX, hizo notables descubrimientos en teoría de números, recibió premios de diversas universidades y academias y tuvo como corresponsales científicos a Gauss, Legendre, Fourier y otros), Sofía Kovalevskaya (matemática rusa, fue discípula de Weierstrass y la primera mujer que obtuvo un doctorado en Físicas), Mary Sommerville (matemática, astrónoma y maestra de Ada Byron (Lady Lovelace)).\\
+
+Algunas colaboraron activamente como ayudantes de sus padres y hermanos: Hilaire Marin Rouelle (descubridora de la urea y hermana del químico G.F. Rouelle), Caroline Herschel (astrónoma, hermana de Sir William Herschel); otras trabajaron codo con codo con sus esposos: Marie Curie, Irène Joliot-Curie, o junto a amigos científicos, como Lady Lovelace con Charles Babbage, los padres de la Informática.\\
+\\
+
+\subsection{¿Qué papel tenemos hoy las mujeres en la tecnología?}
+
+Según E. Pérez Sedeño (\cite{book:DGM}), ``La Historia pone de manifiesto cómo las oportunidades de las mujeres han variado con el tiempo y con las barreras estructurales e institucionales habidas desde el inicio mismo de la Ciencia. La exclusión de las mujeres de las instituciones científicas no se debe a su falta de interés por la Ciencia (...) sino que obedece, en parte, a que las normas que rigen la institución de la Ciencia no pueden entrar en conflicto con las de la estructura global de la sociedad y que resulta evidente que ésta ha sido, e incluso hoy en que está abolida la discriminación por razón de sexo es, \textbf{masculina}.''\\
+
+Quizás sea esta la razón de que la Royal Society (fundada en 1660) no admitiese mujeres hasta 1945, la Académie des Sciencies hasta 1979 (ni siquiera Mme. Curie obtuvo una plaza), o la Real Academia de Ciencias Exactas, Físicas y Naturales, hasta 1988. (E. Pérez Seseño, op.cit.).\\
+
+En cuanto a las Universidades, en la Edad Media tenían vetado el acceso de mujeres, debido a su caracter clerical. En las universidades americanas se admitieron por primera vez en 1837, en las suizas, en la década de 1860, en las españolas, en 1868, en las inglesas en 1869, y en las alemanas en 1900. En muchos casos, las mujeres estudiaban en departamentos separados, no obtenían título alguno, sus notas no salían en actas o necesitaban de un permiso expreso de la superioridad para poder ingresar. Desde 1936, el número de mujeres matriculadas en estudios universitarios en España ha crecido desde el 10\% hasta el 60\% en 2002. (E. Pérez Seseño, op.cit.; El Mundo Anuario 2002).\\
+
+Los datos del censo de 2001 recogidos por el \textbf{Instituto Nacional de Estadística} (INE) reflejan que hay mayor número de mujeres con estudios universitarios (13,9\%) que de hombres (13,2\%). Las mujeres son mayoría en los ámbitos de las Ciencias Experimentales, Ciencias de la Salud, Humanidades, Ciencias Sociales y Jurídicas. La mayor parte de las universitarias españolas eligen estudios legales y sociales, mientras que el número de matriculadas en Ingenierías, sigue siendo escaso (alrededor de un 22\% y hasta un 28\% en la Universidad de Navarra).\\
+
+Según diversos estudios, las mujeres son mejores alumnas y tienen menor fracaso escolar, prolongan su itinerario formativo, y consiguen mejores resultados en técnica de memorización, técnicas de control, interés por la lectura, esfuerzo y perseverancia.\\
+
+Las cifras de mujeres matriculadas en el curso 2001-02 en carreras técnicas son \textbf{Instituto de la Mujer} \cite{book:Instituto}:
+\newpage
+
+% Lista sin numeros %
+\begin{itemize}
+\item De los alumnos matriculados en carreras técnicas el 26,95\% eran mujeres.
+\item El 28,18\% de los alumnos que terminaron los estudios en carreras técnicas eran mujeres. 
+\item De los matriculados en cursos de doctorado en Ingeniería y Tecnología el 26.22\% eran mujeres.
+\end{itemize}
+
+Es también reseñable que, si bien el número de profesoras y profesoras ayudantes en la Universidad española se ha incrementado (aunque el de profesores varones llega a ser el doble en muchos centros), las catedráticas siguen siendo muy pocas (E. Pérez Seseño, op.cit.)). Las mujeres en la Universidad sólo representan el 40\% de los profesores asociados, el 33\% de los titulares y el 12\% de los catedráticos. De las 50 universidades públicas y privadas que hay actualmente en España sólo hay cuatro mujeres rectoras (La Rioja, Ramon Llull, Pompeu Fabra y UNED).\\
+
+De las mujeres matriculadas en ciclos formativos en los años 2001-02 el porcentaje de mujeres en áreas tecnológicas era \textbf{Instituto de la Mujer}:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Informática 27.47\% de mujeres matriculadas.
+\item Electricidad y Electrónica 7.45\% de mujeres matriculadas. 
+\item Comunicación, Imagen y Sonido 36.24\% de mujeres matriculadas.
+\end{itemize}
+
+Según datos del \textbf{Instituto de la Mujer}, el 50.76\% de la población total española en el año 2003 eran mujeres, a pesar de lo cual la presencia de la mujer en el mundo tecnológico sigue siendo minoritaria.\\
+
+La situación en otros países del mundo desarrollado es similar. El número de alumnas universitarias es más o menos el mismo que el de alumnos varones, aunque el número de profesoras, investigadoras o catedráticas es sensiblemente menor. En países como Reino Unido o EEUU, el porcentaje de alumnas en carreras tecnológicas apenas llega al 20\%. Las barreras que encuentra la mujer en el campo de la Ciencia y la Tecnología no entienden de fronteras.\\
+
+En el Informe de la \textbf{OIT} sobre el Trabajo en el Mundo titulado \textit{Life at Work in the Information Economy} se señala que el desarrollo de las Tecnologías de la Comunicación y la Información brinda un gran número de nuevas oportunidades para las mujeres. Pero si estas posibilidades no están respaldadas por políticas que garanticen la participación, formación y responsabilidad en estas materias, y de apoyo a la familia, el número de mujeres profesionales seguirá siendo menor que el de sus compañeros.\\
+
+
+
+\subsection{Causas de la escasez de mujeres en la ciencia y en la tecnología}
+
+Son muy diversos los motivos que reducen la presencia de mujeres en áreas científicas y técnicas. Los más representativos podrían ser los siguientes:
+
+\begin{itemize}
+\item Falta de modelos: Como se ha tratado más arriba, se tiene constancia de muy pocas mujeres científicas que puedan tomarse como modelo para una carrera en Ciencias o Tecnología. Es más, dentro del mundo de la estudiante o profesional, probablemente tendrá pocas oportunidades de conocer a muchas profesoras, investigadoras, científicas, jefes de proyecto, etc, que puedan ser un ejemplo para su carrera posterior. Es un hecho que, en todas estas facetas, el número de hombres es mucho mayor que el de mujeres.
+
+\item Elección Carrera \textit{versus} Familia: las instituciones y las empresas funcionan bajo el supuesto de que el profesional o investigador varón tiene una esposa dedicada al cuidado de los hijos, lo que le permite tener una familia, pero no a la inversa. Por lo general, una mujer debe decidir entre proseguir una carrera o formar una familia, pues los años decisivos para cualquiera de esas dos actividades son los mismos (de 22 a 35 años).(E. Pérez Sedeño (\cite{book:DGM})).
+\begin{itemize}
+\item Tareas domésticas: La mujer trabajadora tiene una ``doble jornada''. Aunque el trabajo doméstico se haya tecnificado, la división sexual del mismo se mantiene. El cuidado de los hijos sigue siendo responsabilidad de la madre, y muy probablemente será ella la única que tome la baja de maternidad o tenga que salir más temprano del trabajo para llevar al niño al médico...
+\item Teletrabajo: Por desgracia, el teletrabajo o trabajo en casa aún no está muy extendido en España. Podría ser una buena opción para las mujeres que no quieran elegir entre la dicotomía trabajo y familia. 
+\item Disponibilidad horaria: En el trabajo informático y similares, las mujeres ocupan categorías intermedias (mujeres jóvenes tituladas), pero los puestos de responsabilidad siguen siendo masculinos (analistas). Se esgrime como razón que la disponibilidad de estos mandos intermedios debe ser mayor, y una mujer con familia no podría satisfacer este requisito. Lo mismo es aplicable a los turnos rotativos.
+\item Prejuicios sociales: En muchos casos, todavía está mejor visto depender del marido que ``abandonar'' a la familia. Acontecimientos como el matrimonio o el nacimiento de los hijos pueden ser causa de conflictos familiares que obliguen a la mujer a abandonar su carrera, por el ``qué dirán'' de parientes o conocidos, no sólo de otras generaciones. Los estereotipos ``hombre-mujer'' que escuchamos desde niños también tienen su parte de culpa.
+\end{itemize}
+
+\item Ocultamiento de la propia identidad: Esconder o renunciar a atributos femeninos para ``ser uno más'', no sólo exteriormente (forma de vestir) sino también en la forma de actuar (negarse a admitir aficiones como cocinar, actuar como ``hombres'': ser más agresiva, más prepotente, sólo por deshacer el estereotipo de la ``mujer dulce'' (¿y crear otro estereotipo, el del ``hombre competitivo''?)).
+
+\item Razones culturales y sociales: 
+\begin{itemize}
+\item Círculo vicioso del efecto minoritario, que crea una sensación inhibitoria al ser la única en las clases, trabajos, congresos...
+\item Desigualdades materiales (salarios más bajos por el mismo trabajo, becas que se otorgan con máximos de edad que pueden ser una desventaja para las mujeres con familia...).
+\item Discriminación de caracter sexista, tanto explícita como de ``techo de cristal''(barreras invisibles que impiden la presencia de mujeres en puestos de responsabilidad o en carreras supuestamente masculinas).
+\item Aislamiento: discriminaciones a nivel de orientación e información entre estudiantes, investigadoras... 
+\end{itemize}
+
+\item Falta de confianza de las mujeres y valorización de sus trabajos, frente a la vanidad y competitividad inmadura de muchos hombres.
+
+\end{itemize}
+
+En el capítulo dedicado a las mujeres y el Software Libre discutiremos estas y otras razones más específicas que hacen que el número de mujeres involucradas en este campo sea claramente inferior al de los hombres. Sin embargo, la causa principal es, sin duda, el machismo de gran parte del colectivo científico y técnico, que se arrastra desde hace siglos.\\
+
+Para afrontar estos obstáculos, se han creado diversos grupos de mujeres científicas o técnicas, que tratan de ayudarse y alentar a otras a seguir la carrera que desean, a pesar de las trabas que puedan encontrar en su camino. En este artículo, nos centraremos en el mundo del Software Libre, pero existen muchas otras organizaciones nacionales e internaciones de mujeres matemáticas, físicas, ingenieras, etc.\\
+
+
+\subsection{El feminismo bien entendido}
+
+Ni la ciencia, ni la tecnología, ni la técnica determinan las relaciones sociales, sino que estas son un elemento más de la estructura social. Desde esta posición, el desarrollo tecnológico está socialmente condicionado.\\
+
+Como subraya el Instituto de la Mujer (\cite{book:DGM}), la crítica femenina a la situación de las mujer en las ciencias y la tecnología pretende construir nuevos modelos que adjudiquen a mujeres y a hombres papeles semejantes, y faciliten que la comunidad científica se convierta en el reflejo de una nueva sociedad en la que la paridad democrática, la igualdad en las responsabilidades familiares, el trabajo y el ejercicio del poder no sean una eterna aspiración. El cambio se dará cuando las mujeres sean capaces de llegar a acuerdos entre ellas, salvando ideologías, y convertirse en una masa crítica que obligue a los partidos a tenerlas en cuenta como votantes, forzar o decidir acciones que las favorezcan, y ayudarles a recuperar el tiempo perdido en superar las trabas existentes (B. Hobson). Para ello se contemplan diferentes estrategias, algunas de las cuales terminan en mera discriminación positiva, que, si bien puede parecer una ayuda a la mujer a corto plazo, a largo plazo puede convertirse en una losa para su carrera (aunque sea una gran profesional, ni ella ni sus compañeron sabrán si se le promocionó por esta razón o simplemente por ser mujer...)\\
+
+Los ``Estudios sobre la Mujer'' se consideran una de las estrategias para ``saltar'' las barreras impuestas a las mujeres involucradas en carreras técnicas o científicas. Sin embargo, estos ``estudios'' pueden degenerar en una especie de \textit{ghetto}, donde las mujeres se limitan a sí mismas. No es lógico que se destinen fondos para proyectos cuyo objeto es investigar a las mujeres matemáticas en lugar de a mejorar sus condiciones o potenciar una mayor presencia de éstas (C. Corrales Rodrigáñez, \cite{book:DGM}).\\
+
+El feminismo bien entendido no clama por una discriminación positiva, sino en nombre de la justicia.\\
+
+
+\newpage
+
+% ------- ¿Mujeres y Software Libre? ------- %
+
+\section{Mujeres y Software Libre}
+
+
+\subsection{Presencia de la mujer en el Software Libre}
+
+Las barreras a las que la mujer tiene que enfrentarse para acceder al SL son las mismas que las que hemos tratado en los epígrafes dedicados a la Tecnología. La situación es similar. El nivel formativo de la mujer en los países desarrollados se ha incrementado de forma importante en los últimos decenios (ver epígrafe 3.3. ¿Qué papel tenemos hoy las mujeres en la tecnología?). El Software Libre puede ser buen trampolín para que la mujer consiga un papel más importante en la vida científico-tecnológica.\\
+
+Las ventajas inherentes del Software Libre (su libre distribución y uso) y de Internet son un vehículo excelente para la comunicación y el trabajo de las mujeres. Hoy en día existen numerosos grupos dedicados al desarrollo de SL, que animan a su implementación y que ayudan a extender su uso en los que participan mujeres. Como en otras áreas científicas o de ingeniería, el número de varones es bastante mayor, y eso, a veces, redunda en actitudes ``machistas'' más o menos explícitas. La creación de grupos específicos de mujeres puede tomarse como una forma de ponerse al día o colaborar en este campo sin la presión competitiva típicamente (y tópicamente) masculina, o interpretarse como una especie de \textit{ghettos}.\\
+
+Es sorprendente que en un campo tan nuevo y moderno como la Informática se den situaciones de este tipo. Supuestamente, la media de edad de los profesionales y aficionados de esta ciencia debería conllevar una práctica desaparición de las creencias en los roles sexistas y los tópicos de género. Por desgracia, no es así siempre. Ni los varones son tan abiertos de miras como debieran ser, ni las mujeres deben estar condenadas a actuar como hombres para ``pasar desapercibidas'' o, al contrario, ``hacerse notar''. Quizás las asociaciones de mujeres dedicadas al SL sean una solución temporal a actitudes retrógradas e injustas, mientras las nuevas generaciones olvidan las distinciones socioculturales que arrastramos desde hace tres mil años.\\
+
+
+\subsection{Perfil de la mujer en el Software Libre}
+Según la encuesta europea FLOSS\cite{book:Floss}, solamente el 1.12\% de las personas involucradas en el Software Libre son mujeres, de lo que se deduce que el porcentaje de participación de las mujeres en el Software Libre es muy inferior al porcentaje de mujeres en el mundo de la Informática.\\
+
+El perfil de mujer la involucrada en el software libre puede resumirse en las siguientes características:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Mujer con formación universitaria (especialmente, ingenierías, informática).
+\item De unos 28 años de edad.
+\item Soltera y con pareja (que también usa Software Libre).
+\item Es estudiante, informática, ingeniero.
+\item Interesada en las nuevas tecnologías. 
+\item Empezó en el mundo de las computadoras con unos 15 años.
+\item Lleva en el mundo del Software Libre unos 3 años.
+\item Colabora en actividades de grupos de trabajo relacionados con el Software Libre.
+\end{itemize}
+
+\newpage
+Muchos de los puntos anteriores son extrapolables a cualquien mujer que se mueva en un entorno tecnológico (ingenieros, científicas, investigadoras). Es interesante hacer hincapié en el tercer punto, pues tanto para mujeres como para hombres es más fácil entrar en el mundo del SL a través de otras personas ya involucradas en él: parejas, hermanos, compañeros de estudios o de trabajo, amigos... No está de más hacer notar que el Software Libre no se publicita como el Software Propietario, por lo que la forma más común de adherirse a este movimiento es el ``boca a boca''.\\
+
+
+\subsection{¿Por qué existen menos mujeres en el Software Libre?}
+
+Las causas de que el porcentaje de mujeres sea tan bajo en el mundo del Software Libre son las mismas que han impedido durante siglos una participación más equilibrada de mujeres en la Ciencia y en la Tecnología. Val Henson \cite{book:Val} cita las siguientes publicaciones sobre este tema: \textit{Unlocking the Clubhouse: Women in Computing}, de Jane Margolis y Allan Fisher, \textit{Women in Computing Keyword List}, disponible \textit{on-line}, y \textit{Why Are There So Few Female Computer Scientists}, de Ellen Spertus.\\
+
+Como ya se apuntó, algunas de ellas hay que buscarlas en motivos sociales: las mujeres tienen menos oportunidades de amistad o tutoría en estas áreas. Como otras disciplinas, la informática es mas fácil de aprender cuando tienes amigos y tutores a quienes preguntar y con quienes formar una comunidad, y es frecuentemente mas difícil para las mujeres encontrar una comunidad y encajar en ella. Como se menciona más arriba, aún existe cierto desdén hacia las mujeres involucradas en la Tecnología por parte de algunos varones. Una actitud hostil, de ninguneo o descorazonadora puede llevar a algunas mujeres a abandonar. Y algunos de sus compañeros pensarán que lo hacen ``porque no son demasiado buenas''(Val Henson, \cite{book:Val}).\\
+
+Lo lamentable de esta situación es que lleva a un fenómeno de retroalimentación: pocas mujeres en informática guían a pocas mujeres en este campo.\\
+
+Ya hemos hablado de cómo se ha querido demostrar durante siglos la menor inteligencia de la mujer (sin éxito). A este tópico absurdo habría que añadir en este campo específico el que afirma que ``a las mujeres no les gusta la informática''(Val Henson, Op. cit.), igualmente indemostrable y fuera de toda lógica. Sí que existen diferencias en la educación y el entorno de las niñas y los niños, que pueden llevar a ciertas predisposiciones, como, por ejemplo, colocar el ordenador en el cuarto del chico en vez de en el de la chica. Con este tipo de actuaciones, no es de extrañar que el niño guste más y adquiera mayor habilidad en el mundo de la Informática que la niña. Por extraño e irrazonable que parezca, siempre se han puesto trabas a las mujeres para acceder a cualquier campo en el que ya estuviesen instalados los hombres, y el mundo de la Informática, la programación y el Software Libre no iba a ser una excepción. Lo que sorprende es que, siendo un campo en el que la media de edad es cuantitativamente baja y el nivel de educación medio-alto, exista este tipo de comportamiento machista.\\
+
+También hemos comentado en apartados anteriores q la educación tradicional tiene su parte de culpa: las mujeres son desalentadas desde pequeñas a dedicarse a ``tareas de hombres''. Básicamente, las razones son las mismas que para cualquier otra carrera científica o ingeniería: el machismo profesional imperante en estas áreas. Otro motivo importante es que el balance vida-trabajo es frecuentemente más importante para las mujeres. Los hombres casi nunca tienen que ``sacrificar'' una parte de su vida para poder dedicarse a la otra.\\
+
+Por otro lado la informática no se considera una tarea ``social'', trabajar con ordenadores es percibido como una ocupación solitaria que involucra poco o ningún contacto humano de día a día. El tópico que hace de las mujeres seres más sociables, amigables, colaboradoras, y generalmente más interesadas en la interacción humana que los hombres, lleva como corolario que la Computación tiende a ser menos atractiva para la mujer.\\
+
+\newpage
+
+Otro tema del que ya se habló en el capítulo sobre las mujeres y la Tecnología es la falta de autoestima: las mujeres son más críticas con su trabajo, y más exigentes consigo mismas. Según Val Henson (Op. cit.), mientras que el 53\% de los hombres novatos en programación se califican a si mismos como altamente preparados en sus cursos de informática, el 0\% de las mujeres novatas en programación se califican de la misma forma. En pruebas objetivas, el nivel de las mujeres era igual o mejor que el de sus compañeros.\\
+
+El desarrollo de Linux es más competitivo y feroz que la mayoría de las áreas de programación, pues, normalmente, la única recompensa por el trabajo es conseguir un cierto \textit{status} y la aprobación de tus compañeros. La baja autoestima de las mujeres y su socialización hacia la no competitividad hacen que muchas sean reacias a entrar en el mundo del Software Libre.\\
+
+Todo esto se une a la falta de modelos de rol femeninos en el campo de la informática: en su mayoría, los juegos de ordenador están pensados para hombres, en la publicidad se dice de forma más o menos velada que las computadoras son para hombres, y, por desgracia, casi el cien por cien de los grandes protagonistas del mundo de la Informática y del SL son hombres...\\
+
+
+
+\subsection{¿Cómo atraer más mujeres al Software Libre?}
+Son varias las medidas que pueden tomarse para atraer a más mujeres al mundo del Software Libre \cite{book:Val}, entre ellas:
+
+% Lista sin numeros %
+\begin{itemize}
+\item Actuaciones desde colectivos mixtos: 
+\begin{itemize}
+\item Concienciación de los chicos: evitar formas de actuar y bromas sexistas, no tratar a las mujeres según los estereotipos, no hacer avances sexuales hacia las mujeres, no ignorarlas, no subestimar a esposas, novias, hermanas, amigas.
+\item Protestar ante situaciones sexistas.
+\item Ser respetuosos y amables con las recién llegadas, amistosos pero no opresivos.
+\item Ayudar a involucrarse a las mujeres en la informática (en lugar de quejarse de la ausencia de éstas).
+\item No criticar demasiado, e intentar felicitar más.
+\item Invitar a las charlas también a ponentes femeninas. Publicitar el evento de modo que puedan acudir más mujeres.
+\end{itemize}
+
+\item No tomar el control del teclado, dar instrucciones y resolver las dudas con claridad (es un método más eficaz de aprendizaje, que evita que la otra persona se sienta inútil o estúpida).
+
+\item Fomentar que las mujeres se involucren en el mundo del SL.
+
+\item Motivar a las mujeres a participar.
+
+\item Impulsar la visibilidad de las mujeres en SL: sacar a la luz a las mujeres que existen en el mundo del Software Libre, desvelar la existencia de modelos femeninos, apoyar a las mujeres que destaquen en este campo.
+
+\item Favorecer la comunicación a nivel internacional entre mujeres y hombres involucrados en el SL.
+
+\item Favorecer la cooperación con otros grupos con objetivos similares.
+\newpage
+\item Creación de grupos de mujeres dentro del SL:
+
+\begin{itemize}
+\item Favorecer la autoestima de las mujeres en las nuevas tecnologías, mayor participación, mayor sentimiento de pertenencia al grupo, ir perdiendo los miedos, eliminación de formas de actuar machistas.
+\item Poder disfrutar de la Informática sin tener que estar pendiente de la ``guerra de sexos''.
+\end{itemize}
+\end{itemize}
+
+\newpage
+
+% ------- Mujeres en el Software Libre ------- %
+
+\section{Mujeres en el Software Libre}
+
+A modo de referencia, se describen a continuación de forma breve algunos de los grupos y mujeres más importantes dedicadas al Software Libre en todo el mundo.
+
+\subsection{Grupos de mujeres en el Software Libre}
+Son varios los grupos internacionales y nacionales de mujeres dedicadas a la promoción del Software Libre. Su creación ha perseguido siempre el animar a más mujeres a enrolarse en este área, facilitando su integración al evitar situaciones de discriminación por su sexo. Entre ellos podemos destacar los siguientes:
+
+% Lista sin numeros %
+\begin{itemize}
+
+% ------- LinuxChix -------- %
+\item \textbf{LinuxChix} \footnote{Véase http://www.linuxchix.org/} \\
+Es una comunidad en inglés organizada por y para para mujeres que les gusta Linux y en general el mundo del Sotware Libre. Cuenta con varias listas de correo, cursos de programación \textit{on-line}, revisiones de libros y software, y es uno de los grupos que mejor funciona.
+
+Fundada por Debbie Richardson y actualmente organizada por Jenn y Dancer Vesperman, LinuxChix se especializa en proveer un entorno amigable y de soporte para todos los usuarios y desarrolladores de Linux, pero especialmente para las mujeres. Debbie Richardson creó LinuxChix porque estaba cansada de ver como los nuevos usuarios en los foros no eran tomados en serio al hacer preguntas consideradas ``muy simples'', y se les contestaba con malas formas del tipo ``Esto no es un canal de Linux''. Su idea era crear una comunidad más amigable donde la gente pudiera discutir sobre Linux, se fomentase la participación y todos tuvieran un papel importante. Deseaba también crear un grupo que estuviera dirigido específicamente a las mujeres.
+
+LinuxChix está organizada por un grupo internacional de voluntarias, que incluye programadoras profesionales y \textit{amateurs}, administradoras de sistemas y autoras técnicas. Los hombres pueden unirse a LinuxChix, pero está enfocado hacia las mujeres, y se intenta que éstan mantengan un papel predominante. Algunas listas son mixtas y otras sólo para mujeres.
+
+Dentro de las mujeres involucradas en LinuxChix se incluyen varias desarrolladoras del núcleo de Linux, una desarrolladora de Mozilla, una miembro de la fundación GNOME, una autora de O'Reilly, administradoras de sistemas, consultoras en informática, expertas en seguridad, estudiantes desde nivel de escuela superior hasta doctoras en diversos campos, cientos de programadoras en diferentes lenguajes y muchas entusiastas de informática.
+
+Existen grupos regionales en diversos lugares del globo, con los mismos objetivos que el grupo original: ofrecer a las mujeres la oportunidad de utilizar o aprender Linux y estar en contacto con otras mujeres con los intereses similares. 
+
+
+% ------- Systers -------- %
+\item \textbf{Systers} \footnote{Véase http://www.systers.org/} \\
+Systers es una organización dirigida a mujeres relacionadas con las tecnologías de la información y la programación, que cuenta con más de 2800 participantes de 53 paises distintos. Se fundó en 1987 por Anita Borg y las lineas maestras de su filosofía se resumen en el artículo ``Why Systers?''\cite{book:Systers}.
+
+Desde el año 1998 Systers forma parte del \textit{Anita Borg Institute for Women and Technology (ABIWT) \footnote{ABIWT http://www.anitaborg.org/}}, dedicado a potenciar la participación de la mujer en el mundo de la Tecnología. 
+
+Otros proyectos relacionados con esta organización son la conferencia bienal \textit{Grace Hopper Celebration of Women in Computing}, \textit{The Ada Project} (una base de datos sobre mujeres en el mundo de la informática) y el \textit{Comité de Mujeres Informáticas} de la ACM (Association for Computing Machinery).
+
+% ------- Gnurias -------- %
+\item \textbf{Gnurias} \footnote{Véase http://www.gnurias.org.br/} \\
+Es grupo de mujeres brasileñas cuyo objetivo es divulgar e incentivar el uso del Software Libre, contribuyendo al desarrollo del libre conocimiento. Sus objetivos contemplan integrar a la mujer en la campaña por el uso del Software Libre, creando un grupo que actúe mediante foros de discusión, charlas, cursos, etc.
+
+No sólo se centra en facilitar el acceso de la mujer a las nuevas tecnologías, sino que tiene también un componente social, promoviendo la igualdad y la mejora de la calidad de vida.
+
+Las primeras Gnurias fueron trabajadoras y docentes de Univates-Centro Universitario: Ana Paula de Araujo, Ana Paula Fiegenbaum, Joice Käfer, Josi Graciela Petter, Marceli Arnhold e Viviane Berner. Después se unieron Fernanda Wolf, Janaina Bald y Marcia Regina Simm Cantú, también miembros de Univates.
+
+
+% ------- Gender Changers -------- %
+\item \textbf{GenderChangers} \footnote{Véase http://www.genderchangers.org/} \\
+La ``Gender Changer Academy (GCA)'' es una organización holandesa sin ánimo de lucro fundada en 2000 a partir de la ASCII (Amsterdam Subversive Code for Information Interchange). Actualmente la GCA funciona gracias a un grupo de voluntarias y proporciona talleres y listas de correo.
+
+Su meta es mejorar el conocimiento y habilidades de las mujeres en el hardware. Las mujeres que trabajan con ordenadores suelen estar más involucradas en el software y el hardware les parece un misterio. Esta organización promueve perder ese miedo, instalando máquinas desde cero, reutilizando componentes de segunda mano en nuestros equipos, siendo autosuficientes, y todo ello siguiendo la filosofía que promueve el Software Libre.
+
+Uno de los proyectos más interesantes organizados por la academia es el \textit{Eclectic Tech Carnival}, un ``carnaval de intercambio de habilidades con los ordenadores'', que en su edición de 2004 celebrada en Belgrado contó con una serie de talleres sobre instalación de redes y configuración de equipos informáticos. Es una gran fiesta donde las mujeres tienen la oportunidad de reunirse para impartir ellas mismas y recibir cursos e intercambiar sus conocimientos. Otras ediciones han tenido lugar en Atenas y en Pula (Croacia). El nombre (o su abreviatura), ``ETC'', juega con la idea del directorio /etc en Linux, donde se guardan los archivos más importantes para el ordenador y la red donde se conecta.
+
+Este proyecto funciona gracias a voluntarias y a donaciones, e intenta hacer que las mujeres confíen más en ellas mismas a la hora de trabajar con los ordenadores. Para ser independiente hay que ser autodidacta y practicar el ``hazlo-tú-mismo''.
+
+
+% ------- haecksen.org -------- %
+\item \textbf{Haecksen.org} \footnote{Véase http://www.haecksen.org/} \\
+Se trata de una red de mujeres alemana, surgida del Chaos Computer Club y dispone desde hace varios años de espacio propio en el congreso CCC (el Chaos Computer Club es una organización alemana fundada por Wau Holland. Tiene sus raíces en la filosofía de los hackers y mantiene listas de correo, un calendario de actividades, foros, congresos, etc, así como relación con otros grupos similares internacionales).
+
+% ------- Mujeres en KDE -------- %
+\item \textbf{Mujeres en KDE} \footnote{Véase http://women.kde.org/} \\
+KDE-Women es un grupo cuyo fin principal es crear una comunidad de usuarias en torno al desarrollo del paquete de software libre KDE.\footnote{KDE es el entorno de escritorio para sistemas Unix más utilizado actualmente, similar a los que se pueden encontrar de tipo propietario. La implementación Unix/KDE constituye una plataforma completamente gratuita y abierta a cualquier modificación por parte del usuario.}
+
+Este grupo aspira a construir un foro internacional sobre KDE para que mujeres que ya trabajan en este entorno muestren qué es lo que hacen, y aquellas que quieran contribuir encuentren dónde empezar. Su sitio web está dirigido no sólo a las mujeres, sino a todo el mundo, contribuyendo así al éxito del KDE.
+
+La idea surgió en la exposición \textit{Systems 2000} en Munich. Se creó una lista de correo y se contactó con más mujeres que trabajaban en KDE. En 2003, después de algún tiempo en el que la lista estuvo en remodelación, se inauguró el sitio web actual.
+
+Allí podremos encontrar abundante documentación (\textit{How-To's}, manuales) y código libre elaborado por las propias usuarias, muy útil para las principiantes. También organizan eventos e \textit{install-parties}\footnote{Las install-parties son jornadas en las que se enseña a usuarios novatos la instalación de software GNU a partir de máquinas totalmente limpias.}, donde se explican las utilidades que proporciona KDE. En sus foros y listas de correo las usuarias pueden resolver sus dudas y aportar sus conocimientos en beneficio de toda la comunidad.
+
+Participan en KDE Women las siguientes mujeres: Anne-Marie Mahfouf (tutoriales), Frauke Oster (Website y desarrollo de KDE), Ines Sombra (bases de datos), Eva Brucherseifer (fundadora, administradora de sistemas, artículos), Lisiane Sztoltz Teixeira  (coordinadora de las traducciones). 
+
+% ------- Debian Women -------- %
+\item \textbf{Debian Women} \footnote{Véase http://women.alioth.debian.org/} \\
+El proyecto Debian Women comenzó su andadura en agosto de 2004. Algunos meses antes, dos desarrolladoras de Debian\footnote{Debian es quizás el sistema operativo GNU/Linux más popular, al ser mantenido exclusivamente por voluntarios.}, Erinn Clark y Amaya Rodrigo comenzaron a discutir la falta de mujeres en el proyecto. En mayo, Clark preparó una charla sobre las mujeres en Debian, que Amaya Rodrigo tradujo y distribuyó en España. Inmediatamente después arrancó la lista de correo, y poco después el sitio web.
+
+Su idea es promover que las mujeres se impliquen en todos los aspectos relacionado con Debian. Animan a reconocer el trabajo de aquellas mujeres que ya están implicadas en desarrollo o documentación incluyendo su perfil su página web. En las FAQs se explica claramente el objetivo del proyecto, que no es segregar ni duplicar esfuerzos, sino animar a que más mujeres se acerquen al Software Libre.
+
+Aprender la filosofía de Debian y preguntar a alguien que sólo conoces a través del correo o del IRC\footnote{Las siglas IRC corresponden al protocolo de comunicación Internet Relay Chat.} es difícil para cualquier persona, y más si es una mujer, que sabe que se está incorporando a un medio mayoritariamente masculino. Una de las tareas principales de Debian Women es ayudar a las mujeres en este proceso, por un lado, echándoles una mano y animándolas, y por otro, desmitificándolo.
+
+Tienen una lista de correo y un canal IRC para la discusión de temas relacionados con Debian, contribuciones, preguntas técnicas, etc. Organizan charlas y conferencias en universidades y GULs\footnote{Grupos de Usuarios de Linux.}. Todo ello con la finalidad de animar a las mujeres a entrar en este mundo, en especial, voluntarias que quieran colaborar en mantenimiento de programas, traducciones o escribiendo \textit{how-to's}; pero también cualquier idea para mejorar el contenido de su sitio web es bienvenida: documentos, eventos, etc.
+
+Su intención es familiarizar a las mujeres con los procedimientos, objetivos y políticas de Debian. Las responsables del grupo son Erinn Clark, Helen Faulkner, Fernanda Weiden y Jutta Wrage.
+
+
+\end{itemize}
+
+También en nuestro país existen algunas comunidades orientadas a dar a conocer y fomentar entre las mujeres el uso del Software Libre, entre ellas podemos destacar:
+
+% Lista sin numeros %
+\begin{itemize}
+
+% ------- Mujeres en Red -------- %
+\item \textbf{Mujeres en Red} \footnote{Véase http://www.mujeresenred.net/} \\
+Mujeres en Red es un foro de debate y promoción de la mujer frente a las nuevas tecnologías, fomentando la igualdad entre sexos y creando un grupo de trabajo, debate y apoyo a la iniciación de las mujeres en el Software Libre.
+
+Mujeres en Red nació en agosto de 1997 y fué fundado por Montserrat Boix, sin recibir ningún tipo de subvención. En la actualidad cuenta con más de tres mil mujeres que a nivel individual o colectivo comparten información a través de las listas de correo del grupo. Sus objetivos son crear un espacio de comunicación y establecer un lazo de unión entre las mujeres del mundo, sin prejuicios culturales, religiosos o políticos, pero con la idea clara de luchar por los derechos fundamentales de las mujeres.
+
+% ------- ChicasLinux -------- %
+\item \textbf{ChicasLinux} \footnote{Véase http://www.chicaslinux.net} \\
+Es una comunidad orientada a las mujeres a las que les gusta Linux y el Software Libre, que también ofrece soporte y apoyo a las mujeres en Informática en general. 
+
+Creado en Agosto de 2004, su sitio web está diseñado al estilo de otros conocidos portales Open Source\footnote{Existen numerosos e interesantes sitios españoles sobre Software Libre, entre ellos podemos destacar Barrapunto(http://www.barrapunto.com), Libertonia(http://libertonia.escomposlinux.org/) o Hipalinux(http://www.hispalinux.es/).} para permitir que las usuarias incluyan contenidos que consideren interesantes sobre Software Libre en general y Linux en particular. También existe un foro bastante activo para debatir sobre temas relacionados con el Software Libre y las Mujeres.
+
+\end{itemize}
+
+\subsection{Mujeres en el Software Libre}
+
+Algunos nombres propios dentro del mundo del Software Libre son:
+
+% Lista sin numeros %
+\begin{itemize}
+
+% ------- Anne-Marie Schleiner -------- %
+\item \textbf{Anne-Marie Schleiner}\\
+Una de las artistas que más han trabajado en la modificación de juegos de ordenador. Es profesora en la Universidad de Colorado, aunque también ha sido docente en otras universidades de Estados Unidos. Tiene un proyecto planteado desde el concepto de Software Libre: \textit{The Open Sorcery Database Project} y ha participado en diversos foros y congresos. Otros proyectos y exposiciones recientes son: \textit{Velvet Strike} (2002), \textit{Snow Blossom House} (exposición \textit{on-line}, 2001), \textit{Luckykiss\_xxx: Adult Kisekae Ningyou Sampling} (exposición \textit{on-line}, 2000), y \textit{Cracking the Maze-Game Plugins and Patches as Hacker Art} (exposición \textit{on-line}, 1999).
+
+% ------- Anita Borg -------- %
+\item \textbf{Anita Borg}\footnote{Véase http://http://www.witi.com/center/witimuseum/halloffame/1998/aborg.php} \\
+Miembro del Departamento de Investigación de Xerox y fundadora de Systers, trabajó como informática. También fue cofundadora del \textit{Grace Hopper Celebration of Women in Computing}\footnote{Grace Hopper fue una pionera en la historia de la Informática. Trabajó durante la Segunda Guerra Mundial en la Marina como programadora de una de las primeras computadoras, la Mark I, y después de licenciarse, colaboró en el desarrollo de la Mark II y la Mark III, Univac I, compiladores y lenguajes de programación como COBOL. Obtuvo el grado de Almirante antes de su fallecimiento en 1992.} y el \textit{Institute for Women and Technology}, donde técnicas, científicas sociales y miembros de la comunidad trabajan juntas para crear tecnologías basadas en las necesidades, situaciones y genialidades de las mujeres. 
+
+Borg recibió el doctorado por la Universidad de Nueva York con un trabajo sobre Sincronización de Sistemas Operativos, y trabajó en el desarrollo de un S.O. basado en Unix en EEUU y en Alemania, y en otras compañías informáticas después de su regreso a los Estados Unidos. Fue miembro de la \textit{Association for Computing Machinery} (ACM) y de la \textit{National Research Council's Committee on Women in Science and Engineering}, y de sendos \textit{Committees on Women} del CRA y la ACM. Recibió diversos premios por su trabajo en Tecnología e Informática. Falleció en 2003 a los 54 años.
+
+% ------- Graciela Egurza -------- %
+\item \textbf{Graciela Egurza} \footnote{Véase http://www.cignux.org.ar/egurza.htm} \\
+Docente de Informática en Argentina, es autora de una serie de textos bastante interesantes orientados a la iniciación a Linux. 
+
+Su primer contacto con la filosofía GNU/Linux fue un curso intensivo, que, al principio, le pareció demasiado abstracto y dirigido a especialistas. Pero no se desalentó y participó en más encuentros, buscando sitios web, tratando de contactar con gente que trabajara con Linux en la educación y le ayudara a vislumbrar cómo utilizarlo en las escuelas. Un día decidió que la mejor manera de conocerlo era usarlo ella misma, y comenzó a probar. 
+
+Egurza reconoce que Linux es a veces difícil de configurar, pero también tiene ventajas que no poseen otras plataformas propietarias, como poder leer archivos procedentes de éstas, y que no ocurre al revés.\\
+
+Esto es muy interesante para la docencia: se pueden utilizar muchos programas como procesadores de texto, bases de datos, clientes de correo, navegadores, programas de diseño gráfico, juegos... que tienen la ventaja de ser de libre distribución. Y que lo que ``falta'' se puede programar: la comunidad GNU/Linux sigue creando software para todos los usuarios. 
+
+Aboga por la enseñanza de la informática a los niños ``sin nombre de marca'', el uso de Software Libre en la docencia, e incentivar los valores éticos, de colaboración y compañerismo que propugna la filosofía GNU.
+
+% ------- Val Henson -------- %
+\item \textbf{Val Henson} \footnote{Véase http://www.nmt.edu/~val/} \\
+Sus intereses incluyen la investigación en sistemas operativos y en ciencias de la Computación. Es desarrolladora del kernel del Linux en IBM. 
+
+Es autora de numerosos artículos dedicados al Software Libre, entre los que destacan \textit{HOWTO Encourage Women in Linux} \cite{book:Val} (un howto orientado a hombres interesados en ayudar a las mujeres a involucrarse en el Software Libre y en concreto en Linux) o \textit{Building and Maintaining an International Volunteer Linux Community }(un artículo donde se nos explica como crear una comunidad dedicada a la difusión de Linux y el Software Libre al estilo de LinuxChix).
+
+En \cite{book:Val}, Henson  discute las razones más o menos manidas que se esgrimen para mantener alejadas de la Informática a las mujeres, ofrece una serie de conclusiones y posibles soluciones, el las que anima a hombres y mujeres involucrados en Linux a ayudar a que más mujeres se incorporen a sus filas, eliminando los comportamientos sexistas, discriminatorios y ``acosadores'' de muchos grupos y foros de la red.
+
+% ------- Carla Schroder -------- %
+\item \textbf{Carla Schroder} \footnote{Véase http://www.oreillynet.com/pub/au/1909} \\
+Comenzó trabajando como consultora autodidacta de administración de sistemas Linux para usuarios y pequeñas empresas a los 37 años de edad, demostrando que nunca es demasiado tarde para intentar algo nuevo, que todos podemos aprender a hacer de todo y nadie es demasiado viejo para conocer el mundo de la Informática.
+
+Es autora del \textit{Linux Cookbook} (un libro de trucos y recetas que ayudan a resolver pequeños problemas en la administración de sistemas Linux de forma rápida y sencilla) y diversos \textit{howto's} sobre Linux para varias publicaciones informáticas \footnote{Véase http://www.tuxcomputing.com/} 
+
+% ------- Jenn Vesperman -------- %
+\item \textbf{Jenn Vesperman} \footnote{Véase http://www.vesperman.id.au/jennifer} \\
+Programadora, escritora y administradora de sistemas australiana. Tiene numerosos artículos escritos para O'Reilly (una de las más famosas editoriales de libros sobre programación y administración de sistemas operativos).
+
+Ve la programación como un acto creativo, comparable al arte o a la música. Defensora del Software Libre y la integración de la mujer en el mundo de la Informática, ha sido coordinadora del grupo LinuxChix durante años.
+
+% ------- Erinn Clark -------- %
+\item \textbf{Erinn Clark} \footnote{Véase http://double-helix.org/} \\
+Erinn Clark es cofundadora del proyecto Debian-Women que ya hemos comentado anteriormente. Colabora en el mantenimiento de LyX y en otros grupos locales, sigue activa en LinuxChix y ha ayudado en el desarrollo de otros proyectos, como Gnurias y KDE Women.
+
+% ------- Pia Smith -------- %
+\item \textbf{Pia Smith}\\
+Presidenta de Linux Australia desde el 23 enero 2003. Es la primera mujer que preside una asociación linuxera de ámbito estatal.
+
+\end{itemize}
+
+En nuestro país, algunas mujeres importantes que con su trabajo han ayudado a la difusión del Software Libre son:
+
+% Lista sin numeros %
+\begin{itemize}
+
+% ------- Amaya Rodrigo Sastre -------- %
+\item \textbf{Amaya Rodrigo Sastre} \footnote{Véase http://people.debian.org/~amaya/} \\
+Entró en el SL en 1998. Trabaja como administradora de sistemas, utilizando Linux y Software Libre, desarrollando Debian y traduciendo software. 
+
+Es la única mujer desarrolladora del proyecto Debian en España y participa en varios proyectos de formación y desarrollo de Software Libre. Actualmente es vocal de la Junta de Hispalinux. 
+
+Es cofundadora del proyecto Debian-Women y ha dado numerosas charlas en distintos hacklabs del país sobre el tema Mujeres y Software Libre.
+
+% ------- Montserrat Boix -------- %
+\item \textbf{Montserrat Boix} \footnote{Véase http://www.nodo50.org/mujeresred/montserratboix.html} \\
+Licenciada en Ciencias de la Información, trabaja de redactora en TVE como especialista en temas del Magreb. Colabora con diferentes ONGs en temas relacionados con la situación de las mujeres en el mundo árabe, periodismo y solidaridad. 
+
+Fundadora  y coordinadora del colectivo Mujeres en Red, red de comunicación alternativa a través de Internet. Coordinadora del grupo Internet y Género, nacido en el seno de Nodo50 para investigar en este campo. Gestiona diversos foros dedicados a promocionar el acceso de las mujeres a la Tecnología y la defensa de nuestros derechos.
+
+Autora de numerosos artículos publicados en la web de Mujeres en Red sobre el acceso de las mujeres a la tecnología como \textit{¿La revolución de la tecnología de la información amplía o estrecha las diferencias entre los dos géneros?. Informe sobre el empleo en el mundo - 2001 - OIT} o \textit{El viaje de las internautas. Una mirada de género a las nuevas tecnologías}\footnote{Podemos encontrar una edición digital del mismo en http://www.mujeresenred.net/el\_viaje\_de\_las\_internautas.html}. 
+
+Ha participado como ponente en diversas mesas tanto nacionales como internacionales, y en la actualidad es una mujer de referencia en lo que se refiere a Nuevas Tecnologías-Género-Comunicación.
+
+% ------- Mercè Molist -------- %
+\item \textbf{Mercè Molist} \footnote{Véase http://ww2.grn.es/merce/} \\
+Periodista especializada en Internet y en los ciberderechos, ha trabajado para muchos medios de comunicación (La Vanguardia, CiberPaís) y realizado diversas investigaciones sobre hacking y las mujeres en el mundo del Software Libre. Ha impulsado la creación de dos listas, la del Grup de Periodistes Digitals y la de las Ciberdones (cibermujeres, en catalan). Ha participado en diferentes conferencias europeas sobre Software Libre.
+
+Entre sus numerosos artículos publicados destaca \textit{Internet se llena de hadas, princesas y brujas}\cite{book:Molist}, donde se hace un repaso al trabajo de las mujeres en el mundo del Software Libre en España.
+
+\end{itemize}
+
+\newpage
+
+% ------- Conclusión ------- %
+
+\section{Conclusiones}
+
+\textit{Existen dos tipos de personas en el mundo: los seres humanos y las mujeres. Y cuando las mujeres tratan de comportarse como seres humanos, se les acusa de intentar ser hombres.} - Simone de Beauvoir\\
+
+Hemos visto que el acceso de la mujer al mundo (mayoritariamente masculino) de la Ciencia y la Tecnología ha sido y es complicada. Muchos estereotipos siguen minando este camino, haciendo desistir y rendirse a numerosas mujeres.\\
+
+Tomando como punto de partida que no puede existir Tecnología si no hay transmisión y acumulación de conocimientos, podríamos concluir que Internet es un medio valioso para investigar, crear y re-crear, transmitir y compartir Tecnología. Y la filosofía del Software Libre es una demostración empírica de este uso de las redes.\\
+
+La Tecnología nos ha proporcionado la posibilidad de intercambiar información en tiempo real con personas en todo el mundo. La Informática ha creado colectivos de gente que trabaja desinteresadamente en software que pueda ser utilizado por todos, gratuito y adaptable a nuestras necesidades. \\
+
+Todos somos generadores de información, creadores y receptores. Todos podemos estar en contacto, y participar del trabajo de otros, u ofrecer el nuestro, sin diferencias de sexo, nacionalidad, posición social... Internet es un mundo libre que nos hace libres. No es lógico depender de unas cuantas compañías si tú mismo puedes crear, adaptar, modificar, ofrecer y recibir de otros las herramientas para tu trabajo, tu entretenimiento, tu ventana al exterior.\\
+
+Creemos que el Software Libre es un modo de vida lo suficientemente nuevo como para que se permita a la mujer trabajar libre de prejuicios, colaborar con sus compañeros varones y crear una sociedad más igualitaria, sin tener que contar con cuotas sexistas, discriminación positiva, o \textit{ghettos} limitantes. Como señala Donna J. Haraway, la Informática es un medio de conexiones contingentes, es una oportunidad para las mujeres de hacer notar su presencia en este campo, todavía ``limpio'' de tópicos sexistas anacrónicos, ``una base de datos es un lugar ideal donde todos los elementos son iguales en la tabla, y todo el mundo puede acceder a ellos. La base de datos es un lugar condensado para contender sobre (...) democracia y libertad''\cite{book:Haraway}.\\
+
+
+
+
+\newpage
+
+% ------- Bibliografía y recursos ------- %
+
+\begin{thebibliography}{MSL}
+
+% Borg %
+\bibitem[Borg93]{book:Systers} Anita Borg.\textsl{Why Systers?},
+http://athena.systers.org/about.html, 1993.
+% DGM %
+\bibitem[DGM98]{book:DGM} Dirección General de la Mujer Comunidad de Madrid.
+\textsl{El acceso de las mujeres a la ciencia y la tecnología},
+Publicaciones DGM, 1998.
+% Everts %
+\bibitem[Ever98]{book:Everts} Saskia Everts.
+\textsl{Gender and Technology},
+Zed Books, 1998.
+% Floss %
+\bibitem[Flos01]{book:Floss} Free/Libre/Open Source Software.
+\textsl{Survey and Study},
+http://www.infonomics.nl/FLOSS/floss1/stats\_32.html, 2001.
+% Hacker %
+\bibitem[Hack90]{book:Hacker} Sally L. Hacker.
+\textsl{Doing it the hard way},
+Unwin Hyman, 1990.
+% Haraway %
+\bibitem[Hara97]{book:Haraway} Donna J. Haraway.
+\textsl{Modest\_Witness@Second\_Millenium},
+Routledge, 1997.
+% Val Henson %
+\bibitem[Val03]{book:Val} Val Henson.
+\textsl{How to encourage women in Linux},
+http://www.tldp.org/HOWTO/Encourage-Women-Linux-HOWTO/, 2003.
+% Instituto de la Mujer %
+\bibitem[Inst04]{book:Instituto} Instituto de la Mujer.\textsl{Mujeres en cifras},
+http://www.mtas.es/mujer/mcifras/, 2004.
+% Ana Lamas %
+\bibitem[Lama03]{book:Lamas} Ana Lamas Clemente.
+\textsl{Mujeres y Software Libre, estudio sobre la participación de las mujeres en el Software Libre},
+http://javi.alamin.org/estudio/, 2003.
+% Lessing %
+\bibitem[Less04]{book:Lessing} Lawrence Lessig.
+\textsl{Free Culture, how big media uses technology and the law to lock down culture and control creativity},
+The Penguin Press, 2004.
+% Libro Blanco del Soft Libre en España %
+\bibitem[Libb04]{book:LibroBlanco} Libro blanco del Software Libre en España.
+\textsl{Implantación del software libre en la sociedad y en especial en la administración pública},
+http://www.libroblanco.com/html/index.php, 2004.
+% Molist %
+\bibitem[Moli03]{book:Molist} Merce Molist.
+\textsl{Internet se llena de hadas, princesas y brujas},\\
+http://nauscopio.coolfreepages.com/merce\_molist/Hadas\_princesas\_brujas.htm, 2003.
+% Eric S. Raymond %
+\bibitem[Raym00]{book:Raymond} Eric Steven Raymond.
+\textsl{The Cathedral and the Bazaar},
+ Thyrsus Enterprises, 2000.
+ % Stallman %
+\bibitem[Stal02]{book:Stallman} Richard M. Stallman.
+\textsl{Free Software, Free Society: Selected Essays of Richard M. Stallman},
+GNU Press, 2002.
+
+\end{thebibliography}
+
+
+% ========== END DOCUMENT ========== %
+\end{document}
+
